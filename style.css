@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 100px 1fr 50px;
+    padding: 70px 70px 24px 70px;
+    background-color: #f5cf06;
+    color: #8e4106;
+    font-family: 'Righteous', cursive;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    font-size: 32px
+}
+
+.logo__text{
+    font-size: 32px;
+    font-weight: weight 100;
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+}
+footer{
+    background-color: rgb(0, 0, 0);
+}
